@@ -1,4 +1,4 @@
-# Luhn
+# Ruby: Luhn
 
 Write a program that can take a number and determine whether or not it is valid per the Luhn formula.
 
@@ -55,6 +55,21 @@ checksums are a simple sanity-check, not a real in-depth verification of the
 authenticity of some data. It's often a cheap first pass, and can be used to
 quickly discard obviously invalid things.
 
+
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby luhn_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
 ## Source
 
 The Luhn Algorithm on Wikipedia [http://en.wikipedia.org/wiki/Luhn_algorithm](http://en.wikipedia.org/wiki/Luhn_algorithm)
@@ -63,3 +78,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
